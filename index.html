@@ -11,9 +11,13 @@
         <!-- box icons -->
         <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-rf5/Iv5XVxDUHbQPZZQl+Dd5Zo31Cwv9wC2xw2xjUKQ04I/yoF6T5cBZlOMr4f5C" crossorigin="anonymous"></script>
+
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
         <div class="container-nav container">
           <a class="navbar-brand" href="#">
             <img class="header-image" src="images/logo.png" width="90" height="70" alt=""/>
@@ -69,7 +73,289 @@
             </ul>
           </div>
         </div>
-      </nav>
-      <script src="js/main.js"></script>
+  </nav>
+  <!-- headding -->
+  <div class="container">
+        <div class="d-flex page-header">
+           <span class="page">Home</span><i class='bx bxs-circle page-icon'></i>
+           <span class="page">product page</span><i class='bx bxs-circle page-icon'></i>
+           <span class="page">Product Details Page</span>
+        </div>
+        <hr>
+  </div>
+
+  <!-- product discription -->
+  <div class="container">
+       <div class="d-lg-flex product-discription-container">
+          <div class="d-flex col-lg-6 col-md-12 col-sm-6">
+            <div class="col-md-3 col-sm-3">
+              <div class="prod-viriety">
+                <div class="product-image-container">
+                  <img src="images/sub-prod1.jpg" alt="Product Image" class="img-fluid product-image">
+                </div>
+              </div>
+              <div class="prod-viriety">
+                <div class="prod-viriety">
+                  <div class="product-image-container">
+                    <img src="images/sub-prod1.jpg" alt="Product Image" class="img-fluid product-image">
+                  </div>
+                </div>
+              </div>
+              <div class="prod-viriety">
+                <div class="prod-viriety">
+                  <div class="product-image-container">
+                    <img src="images/sub-prod1.jpg" alt="Product Image" class="img-fluid product-image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="main-image-container">
+                <img src="images/main-prod.jpg" class="img-fluid main-image-container" alt="Responsive image">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm12 prd-dis-container">
+            <div class="product-name">
+              <h4 class="heddings">Celavive Pack (Dry/Sensitive) ITEM # 3553</h4>
+            </div>
+            <div class="rate-stars">
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+              <i class='bx bx-star' style='color:#ffe006' ></i>
+              <span class="rate">3.5/5</span>
+            </div>
+            <div class="price-section">
+              <span class="sell-price">Rs 1,120</span>
+              <span class="original-price">Rs 1,500</span>
+              <span class="discount-rate">-30%</span>
+            </div>
+            <div class="prod-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, voluptates. Lorem ipsum dolor.</div>
+            <div class="product-count-section">
+              <div class="number">
+                <span class="minus">-</span>
+                <input class="input-squre" type="text" value="1"/>
+                <span class="plus">+</span>
+              </div>
+            </div>
+            <div class="cart-btn-section">
+              <button class="cart-btn">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+  </div>
+
+  <!-- tab section -->
+  <div class="container tab-section">
+    <div>
+      <div class="d-flex justify-content-around" data-toggle="buttons" id="options">
+        <div class="btn-tab active" id="option1">Product details</div>
+        <div class="btn-tab" id="option2">Ratings $ Reviews</div>
+        <div class="btn-tab" id="option3">FAQs</div>
+      </div>
+    </div>
+
+    <div id="content-option1" class="content">
+      <div class="d-lg-flex content-container">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="">
+            <img src="images/main-prod.jpg" class="img-fluid main-image-container-dis" alt="Responsive image">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 middle-container">
+          <h5 class="sub-headding">Benefits of Skincare</h5>
+          <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias eligendi placeat consequatur blanditiis similique, tenetur in molestias saepe eum maxime error beatae ipsa debitis sapiente ipsam ad dignissimos minus voluptate.</p>
+          <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore nulla, distinctio doloribus similique numquam doloremque asperiores atque, ipsum rerum nisi omnis dolores nihil id ea architecto debitis. Libero, eos consectetur?</p>
+          <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur illo reprehenderit minima optio maxime necessitatibus in dolore cumque quia deserunt iusto iste, numquam vitae exercitationem, fugit aperiam expedita accusantium blanditiis!</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 right-container">
+          <h5 class="sub-headding">The Perfect Ingredient</h5>
+          <div class="list-section">
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+          </div><br>
+
+          <h5 class="sub-headding">The best practices</h5>
+          <div class="list-section">
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+            <span class="para"><i class='bx bx-chevron-right'></i> Lorem ipsum, dolor sit amet consectetur</span><br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="content-option2" class="content" style="display: none;">
+      <div class="content-container">
+        <div class="d-flex justify-content-between dreview-header">
+           <div>
+            <h5 class="sub-headding">All Reviews</h5>
+           </div>
+            <div class="d-flex">
+             <div class="menu">
+              <i class='bx bx-menu'></i>
+             </div>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Latest
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">Another action</button>
+                  <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+                <button class="login-btn">write a review</button>
+             </div>
+            </div>
+        </div>
+        <div class="d-lg-flex de-md-flex justify-content-between">
+           <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+            <div class="rate-stars">
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+              <i class='bx bx-star' style='color:#ffe006' ></i>
+            </div>
+            <div class="name">
+              <span class="name">Samantha D.</span>
+              <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+            </div>
+            <div>
+              <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+            </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+            <div class="rate-stars">
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star' style='color:#ffe006'  ></i>
+              <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+              <i class='bx bx-star' style='color:#ffe006' ></i>
+            </div>
+            <div class="name">
+              <span class="name">Samantha D.</span>
+              <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+            </div>
+            <div>
+              <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+            </div>
+           </div>
+        </div>
+        <div class="d-lg-flex de-md-flex justify-content-between">
+          <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+           <div class="rate-stars">
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+             <i class='bx bx-star' style='color:#ffe006' ></i>
+           </div>
+           <div class="name">
+             <span class="name">Samantha D.</span>
+             <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+           </div>
+           <div>
+             <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+           </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+           <div class="rate-stars">
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star' style='color:#ffe006'  ></i>
+             <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+             <i class='bx bx-star' style='color:#ffe006' ></i>
+           </div>
+           <div class="name">
+             <span class="name">Samantha D.</span>
+             <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+           </div>
+           <div>
+             <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+           </div>
+          </div>
+       </div>
+       <div class="d-lg-flex de-md-flex justify-content-between">
+        <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+         <div class="rate-stars">
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+           <i class='bx bx-star' style='color:#ffe006' ></i>
+         </div>
+         <div class="name">
+           <span class="name">Samantha D.</span>
+           <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+         </div>
+         <div>
+           <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+         </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 ratings-cards">
+         <div class="rate-stars">
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star' style='color:#ffe006'  ></i>
+           <i class='bx bxs-star-half' style='color:#ffe006' ></i>
+           <i class='bx bx-star' style='color:#ffe006' ></i>
+         </div>
+         <div class="name">
+           <span class="name">Samantha D.</span>
+           <i class='bx bxs-check-circle' style='color:#04c045'  ></i>
+         </div>
+         <div>
+           <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore natus libero reiciendis quia in iure? Repellendus ea nisi autem beatae inventore sit suscipit fugit culpa natus similique, molestias numquam.</p>
+         </div>
+        </div>
+     </div>
+      </div>
+    </div>
+
+    <div id="content-option3" class="content" style="display: none;">
+      <h2>Content for Option 3</h2>
+      <p>This is the content for Option 3.</p>
+    </div>
+
+  </div>
+  <!-- footer section -->
+  <div class="container">
+      <footer>
+        <div class="footer-container">
+          <div class="row top-footer-section">
+            <div class="col-4">
+              <img class="header-image" src="images/logo.png" width="90" height="70" alt=""/>
+            </div>
+            <div class="d-flex justify-content-center col-4">
+                <div class="footer-link"><a href="#about">About Us</a></div>
+                <div class="footer-link"><a href="#product">Products</a></div>
+                <div class="footer-link"><a href="#">Blogs</a></div>
+                <div class="footer-link"><a href="#">Contact Us</a></div>
+            </div>
+            <div class="d-flex justify-content-center col-4">
+                <div class="footer-link-i"><a href=""><i class='bx bxl-facebook' style='color:#660066'></i></a></div>
+                <div class="footer-link-i"><a href=""><i class='bx bxl-instagram-alt' style='color:#660066'></i></a></div>
+                <div class="footer-link-i"><a href=""><i class='bx bxl-youtube' style='color:#660066'></i></a></div>
+            </div>
+          </div>
+          <div class="botom-footer-section">
+            <span class="bottom-text">Teems & Privacy Policy</span>
+            <span class="bottom-text">Disclaimer</span>
+            <span class="bottom-text">Shopping Policy</span>
+            <span class="bottom-text">Refund Policy</span>
+            <span class="bottom-text">2023 Victous-All Rights Reserved.</span>
+            <span class="bottom-text">Designed & Developed by GAGANI</span>
+          </div>
+        </div>
+      </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
